@@ -1,19 +1,50 @@
+.product {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+.body {
+    background-color: #f8f8f8
+}
 .link {
-    text-decoration: none
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    font-size: 20px
 }
-
 hr {
-    border-color: dodgerblue;
-    border-style: inset;
-    border-width: 10px;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-    text-align: center;
+    border-color: brown;
+    border-style: solid;
+    border-width: 5px;
 }
 img[alt="ara"] {
-    border: 4px solid green
+    border: 1px solid black
+}
+.char {
+    list-style-type: circle;
+    font-size: 16px;
+    font-style: italic;
+}
+#short {
+    color: #707070;
+    font-style: italic;
+    line-height: 16px;
+}
+#long{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.footer {
+    text-align: center
+}
+input {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border:1px solid #999;
+    color: crimson;
+    font-size:16px;
+    font-family: monospace;
 }
