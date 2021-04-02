@@ -18,7 +18,8 @@ hr {
     border-width: 5px;
 }
 img[alt="ara"] {
-    border: 1px solid black
+    border-style: double;
+    border-color: red;
 }
 .char {
     list-style-type: circle;
