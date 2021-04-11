@@ -5,15 +5,26 @@
     <meta charset="UTF-8">
     <title>Zoomarket</title>
     <link rel="stylesheet" href="../style.css">
+    <style>
+        p:first-letter {
+            font-size: 30px;
+            font-family: fantasy;
+        }
+    </style>
 </head>
 
 <body class="body">
+    <div class="header">
+        <png class="logo">
+            <img src="../img/icon.png" alt="icon" width="90" height="100">
+        </png>
+        <ul class="menu">
+            <li><a class="link" href="../index.html">Главная</a></li>
+            <li><a class="link" href="../catalog.html">Каталог</a></li>
+            <li><a class="link" href="../contacts.html">Контакты</a></li>
+        </ul>
+    </div>
     <hr>
-    <ul class="menu">
-        <li><a class="link" href="../index.html">Главная</a></li>
-        <li><a class="link" href="../catalog.html">Каталог</a></li>
-        <li><a class="link" href="../contacts.html">Контакты</a></li>
-    </ul>
     <h1>Попугай Ара Макао (красный ара)</h1>
     <br> <a href="../img/ara-macao-scarlet.jpg" target="_blank"><img src="../img/ara-macao-scarlet.jpg" width="200" height="150" alt="ara"></a>
     <h3 class="product">Краткое описание товара</h3>
@@ -23,30 +34,52 @@
         <br> Обитает от Мексики до Эквадора, Боливии и реки Амазонки. Населяют тропические леса. Предпочитают держаться в кронах высоких деревьев.
         <br> Питаются в основном растительной пищей: плодами, орехами, молодыми побегами деревьев и кустарников.</p>
     <h3 class="product">Характеристики товара</h3>
-        <table class="table">
+    <table class="dz">
             <tr>
-                <td rowspan="3">1</td>
-                <td colspan="2"></td>
+                <td colspan="4" id="col_1">Ара макао</td>
             </tr>
             <tr>
-                <td>5</td>
-                <td>6</td>
+                <td>Цвет</td>
+                <td colspan="4">Красный</td>
             </tr>
-        </table>
-       
-       <ul class="char">
+            <tr>
+                <td>Длина тела</td>
+                <td>78</td>
+                <td>90</td>
+                <td rowspan="3">см.</td>
+            </tr>
+            <tr>
+                <td>Длина крыла</td>
+                <td>28</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Длина хвоста</td>
+                <td>50</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td>Вес</td>
+                <td>900</td>
+                <td>1300</td>
+                <td>гр.</td>
+            </tr>
+    </table>
+<!--
+    <ul class="char">
         <li> Цвет красный</li>
         <li> Длина тела 78 - 90&nbsp;см.</li>
         <li> Вес 900 - 1300&nbsp;гр.</li>
         <li> Длина крыла 28-40&nbsp;см.</li>
         <li>Длина хвоста&nbsp;&mdash; 50-62&nbsp;см.</li>
     </ul>
-    <h3 class="product">Цена</h3>
-    <p id="long">250 000-650 0000&nbsp;руб.</p>
+-->
+    <h3 class="product">Стоимость товара</h3>
+    <p id="long">Цена: 250 000-650 0000&nbsp;руб.</p>
     <hr>
-    <footer class="footer">
+    <div class="footer">
         <h5>Все права защищены &copy;&nbsp;2021</h5>
-    </footer>
+    </div>
 </body>
 
 

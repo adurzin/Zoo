@@ -1,6 +1,6 @@
 
 
-.menu li {
+.header li {
     width: 100px;
     height: 30px;
     list-style-type: none;
@@ -11,10 +11,10 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.menu li a:hover {
+.header li a:hover {
     color: red;
 }
-.menu li a:active {
+.header li a:active {
     color: black;
 }
 
@@ -38,9 +38,12 @@ hr {
     border-style: solid;
     border-width: 5px;
 }
+img[alt="ara"]:hover {
+    border-color: transparent;
+}
 img[alt="ara"] {
-    border-style: double;
-    border-color: red;
+    border-style: groove;
+    border-color: brown;
 }
 .char {
     list-style-type: circle;
@@ -73,5 +76,22 @@ input {
 #check {
     font-style: italic;
     border-color: brown;
+    color: blueviolet;
+    text-transform: capitalize;
 }
-
+.dz {
+    border: 1px solid  black;
+    border-spacing: 0px;
+    font-style: italic;
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-spacing: 0px;
+}
+#col_1 {
+    height: 60px;
+    font-family: fantasy;
+}
